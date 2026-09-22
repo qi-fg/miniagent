@@ -182,7 +182,10 @@ miniagent/
 │   └── cli.py           # `python -m miniagent.cli`
 ├── examples/
 │   ├── basic.py         # offline demo (calculator + search)
-│   └── custom_tool.py   # how to add your own tool
+│   ├── custom_tool.py   # how to add your own tool
+│   └── real_agent.py    # chat loop for real providers (OpenAI/Anthropic/Ollama)
+├── tools/
+│   └── generate_social_preview.py  # renders assets/social-preview.png
 └── tests/
     └── test_agent.py    # offline unit tests
 ```
