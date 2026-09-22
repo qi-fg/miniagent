@@ -1,0 +1,3 @@
+# miniagent core is pure standard library — no required dependencies.
+# `requests` is only needed for the HTTP providers (OpenAI / Anthropic / Ollama).
+requests>=2.31.0

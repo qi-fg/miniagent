@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "miniagent"
+version = "0.1.0"
+description = "A tiny, dependency-free LLM agent framework: ReAct loop, tools, and memory in a few hundred lines of Python."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["llm", "agent", "react", "tools", "ai", "automation"]
+authors = [{ name = "Li Yongqi" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["requests>=2.31.0"]
+
+[project.urls]
+Homepage = "https://github.com/qi-fg/miniagent"
+Repository = "https://github.com/qi-fg/miniagent"
+
+[tool.setuptools.packages.find]
+include = ["miniagent*"]
